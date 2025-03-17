@@ -10,4 +10,7 @@
 
 6. Null Check.
 
-7. Splitting bins into separate data columns => CURRENT
+7. Basic EDA Done.
+
+8. Answered Question 1
+

@@ -70,3 +70,41 @@ WHERE
     price_thousands  IS NULL;
     
 -- NO Nulls Found.
+
+SELECT
+	*
+FROM
+	cars_dev;
+    
+SELECT
+	model_num,
+    Brand,
+    Model,
+    ROUND(AVG(price_thousands),0)
+FROM
+	cars_dev
+GROUP BY
+	model_num,Brand,Model
+ORDER BY
+	AVG(price_thousands) DESC;
+
+SELECT
+	engine_power,
+    MAX(price_thousands)
+FROM
+	cars_dev
+GROUP BY
+	engine_power
+ORDER BY
+	MAX(price_thousands) DESC;
+    
+SELECT
+	Gov,
+    AVG(price_thousands)
+FROM
+	cars_dev
+GROUP BY
+	Gov
+ORDER BY
+	AVG(price_thousands) DESC;
+	
