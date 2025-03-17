@@ -1,0 +1,13 @@
+1. Adjusted Colum Names
+
+2. Drafted Questions
+
+3. Adjusted Column Names
+
+4. Split into DEV and PROD environments.
+
+5. Dupe Check
+
+6. Null Check.
+
+7. Splitting bins into separate data columns => CURRENT
