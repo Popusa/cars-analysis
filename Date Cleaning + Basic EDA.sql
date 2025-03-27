@@ -107,4 +107,4 @@ GROUP BY
 	Gov
 ORDER BY
 	AVG(price_thousands) DESC;
-	
+    
